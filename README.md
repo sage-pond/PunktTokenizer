@@ -4,7 +4,7 @@ This repository contains a specialized **Punkt** model for sentence boundary det
 
 
 * **Architecture:** Unsupervised Statistical Boundary Detection (Punkt).
-* **Format:** Serialized Python `.json`.
+* **Format:** `.json`.
 * **Language/Domain:** Luganda.
 * **Data:** Trained on 200k+ sentences.
 
