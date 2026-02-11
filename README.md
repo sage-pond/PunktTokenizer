@@ -6,8 +6,18 @@ This repository contains a specialized **Punkt** model for sentence boundary det
 * **Architecture:** Unsupervised Statistical Boundary Detection (Punkt).
 * **Format:** Serialized Python `.json`.
 * **Language/Domain:** Luganda.
+* **Data:** Trained on 200k+ sentences.
 
 ---
+
+## 🌍 Real-World Use Cases
+Sentence Boundary Detection (SBD) is the foundation of modern NLP. This model is designed for:
+
+* **Machine Translation Pre-alignment:** Breaking large paragraphs into discrete sentences to ensure source and target texts are perfectly aligned before being fed into translation models.
+* **Large-Scale Web Mining:** Processing massive datasets (e.g., Common Crawl) for LLM pre-training where the $O(n)$ efficiency of Punkt outperforms costly Transformer-based splitters.
+* **Legal & Medical Analysis:** Handling dense texts saturated with abbreviations (e.g., "v.", "corp.", "approx.", "Dr.") that often break standard regex-based splitters.
+* **Abstractive Summarization:** Ensuring precise sentence boundaries so that summarization algorithms can rank and extract information without truncating mid-clause.
+* **Search Engine Indexing:** Improving the granularity of indexed text segments for more accurate snippet generation in search results.
 
 ## 🚀 Usage
 
