@@ -23,12 +23,17 @@ Sentence Boundary Detection (SBD) is the foundation of modern NLP. This model is
 
 ### Installation
 You only need the `nltk` library:
+## Step 1
 ```bash
 pip install nltk
 ```
 ---
+## Step 2
 ```bash
-git clone 
+git clone https://github.com/sage-pond/PunktTokenizer.git
+```
+---
+## Step 3
 ```python
 import json
 from nltk.tokenize.punkt import PunktParameters, PunktSentenceTokenizer
