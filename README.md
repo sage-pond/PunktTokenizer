@@ -1,4 +1,6 @@
 # Luganda Punkt Sentence Tokenizer
+##[UPDATE]
+THE NEW VERSION HAS BEEN TRAINED ON 3 million + sentences
 
 This repository contains a specialized **Punkt** model for sentence boundary detection. Unlike Transformer-based models, this tokenizer uses an unsupervised statistical approach, making it extremely lightweight and efficient for high-throughput NLP pipelines.
 
@@ -6,11 +8,11 @@ This repository contains a specialized **Punkt** model for sentence boundary det
 * **Architecture:** Unsupervised Statistical Boundary Detection (Punkt).
 * **Format:** `.json`.
 * **Language/Domain:** Luganda.
-* **Data:** Trained on 200k+ sentences.
+* **Data:** Trained on 3 million+ sentences.
 
 ---
 
-## 🌍 Real-World Use Cases
+##  Real-World Use Cases
 Sentence Boundary Detection (SBD) is the foundation of modern NLP. This model is designed for:
 
 * **Machine Translation Pre-alignment:** Breaking large paragraphs into discrete sentences to ensure source and target texts are perfectly aligned before being fed into translation models.
@@ -19,7 +21,7 @@ Sentence Boundary Detection (SBD) is the foundation of modern NLP. This model is
 * **Abstractive Summarization:** Ensuring precise sentence boundaries so that summarization algorithms can rank and extract information without truncating mid-clause.
 * **Search Engine Indexing:** Improving the granularity of indexed text segments for more accurate snippet generation in search results.
 
-## 🚀 Usage
+##  Usage
 
 ### Installation
 You only need the `nltk` library:
