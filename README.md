@@ -1,7 +1,7 @@
 # Luganda Punkt Sentence Tokenizer
-##[UPDATE]
+#[UPDATE]
 THE NEW VERSION HAS BEEN TRAINED ON 3 million + sentences
-
+The modal  will be available on our api, and huggingface 
 This repository contains a specialized **Punkt** model for sentence boundary detection. Unlike Transformer-based models, this tokenizer uses an unsupervised statistical approach, making it extremely lightweight and efficient for high-throughput NLP pipelines.
 
 
